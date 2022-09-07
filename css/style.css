@@ -1,5 +1,5 @@
 @import "reset.css";
-@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600&display=swap");
 @import "variables.css";
 
 /* Components */
@@ -8,24 +8,24 @@
 /* Screens */
 @import "screens/login.css";
 
-body{
-    color: #2e363e;
-    font-family: 'Hind Siliguri', sans-serif;
+body {
+  color: #2e363e;
+  font-family: "Hind Siliguri", sans-serif;
 }
 
-.welcome-kokoa{
-    margin-top: 200px;
-    text-align: center;
+.welcome-kokoa {
+  margin-top: 150px;
+  text-align: center;
 }
 
-.welcome-kokoa h1{
-    font-size: 50px;
-    font-weight: 600;
-    margin-bottom: 40px;
+.welcome-kokoa h1 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 40px;
 }
 
 .welcome-kokoa h4 {
-    opacity: 0.4;
-    font-size: 23px;
-    margin-bottom: 200px;
+  opacity: 0.4;
+  font-size: 23px;
+  margin-bottom: 150px;
 }
