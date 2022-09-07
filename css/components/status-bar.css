@@ -1,0 +1,22 @@
+.status-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.status-bar__column{
+    display: flex;  
+    align-items: center;
+}
+
+.status-bar__column span{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.status-bar__column:last-child span{
+    font-size: 20px;
+}
+
+.ri-rotate-lock-fill {
+    margin-right: 5px;
+}
