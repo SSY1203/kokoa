@@ -73,3 +73,23 @@
   padding: 5px 10px;
   margin-top: 10px;
 }
+
+.user-component__subtitle2 {
+  display: flex;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.user-component__subtitle2 h6 {
+  opacity: 0.5;
+}
+
+.user-component__subtitle2 i {
+  color: tomato;
+  margin-left: 5px;
+}
+
+.ri-file-list-2-line {
+  font-size: 50px;
+  opacity: 0.8;
+}

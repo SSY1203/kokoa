@@ -1,0 +1,39 @@
+.suggestion {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.suggestion-header {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 0;
+}
+
+.suggestion-apps {
+  display: flex;
+  justify-content: space-around;
+}
+
+.suggestion-apps__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.suggestion-apps__icon i {
+  font-size: 50px;
+  background-color: var(--yellow);
+  border-radius: 8px;
+  color: white;
+  padding: 7px;
+  margin-bottom: 10px;
+}
+
+.suggestion-apps__icon:last-child i {
+  background-color: white;
+  color: white;
+}
+
+.suggestion-apps__icon span {
+  font-size: 15px;
+  opacity: 0.7;
+}

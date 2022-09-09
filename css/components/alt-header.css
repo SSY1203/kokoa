@@ -1,0 +1,16 @@
+.alt-header {
+  margin-top: 50px;
+  padding: 0px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alt-header span {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.alt-header i {
+  font-size: 40px;
+}

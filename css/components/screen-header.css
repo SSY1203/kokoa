@@ -6,6 +6,10 @@
   padding: 10px 20px;
 }
 
+.screen-header__column {
+  display: flex;
+}
+
 .screen-header__column:first-child {
   font-size: 50px;
   font-weight: 600;
@@ -15,4 +19,15 @@
 .screen-header__column:last-child i {
   font-size: 30px;
   margin-left: 15px;
+}
+
+.screen-header__icons {
+  position: relative;
+}
+
+.screen-header__icons span {
+  position: absolute;
+  font-size: 40px;
+  color: tomato;
+  bottom: 20px;
 }
