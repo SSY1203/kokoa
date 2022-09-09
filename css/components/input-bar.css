@@ -1,0 +1,48 @@
+.input-bar {
+  position: fixed;
+  bottom: 0%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 30px;
+}
+
+.plus-btn {
+  font-size: 40px;
+  width: 10%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  opacity: 0.5;
+}
+
+.input-text {
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+
+.input-text input {
+  width: 900px;
+  padding: 15px;
+  border-radius: 20px;
+  outline: none;
+  border-color: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+}
+
+.ri-smile {
+  position: absolute;
+  right: 40px;
+  opacity: 0.4;
+}
+
+.ri-arrow-up-line {
+  position: absolute;
+  right: 6px;
+  background-color: var(--yellow);
+  border-radius: 50%;
+  font-size: 30px;
+}

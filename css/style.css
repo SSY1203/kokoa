@@ -7,23 +7,25 @@
 @import "components/screen-header.css";
 @import "components/user-components.css";
 @import "components/nav-bar.css";
-@import "components/chat.css";
 @import "components/add-functions.css";
 @import "components/recommend-friends.css";
 @import "components/open-chat.css";
 @import "components/suggestion.css";
 @import "components/alt-header.css";
+@import "components/input-bar.css";
 
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/more.css";
 @import "screens/settings.css";
+@import "screens/chat.css";
+@import "screens/chats.css";
 
 body {
   color: #2e363e;
   font-family: "Hind Siliguri", sans-serif;
-  height: 1000vh;
+  height: 100vh;
 }
 
 .welcome-kokoa {
