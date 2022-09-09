@@ -5,13 +5,21 @@
 /* Components */
 @import "components/status-bar.css";
 @import "components/screen-header.css";
+@import "components/user-components.css";
+@import "components/nav-bar.css";
+@import "components/chat.css";
+@import "components/add-functions.css";
+@import "components/recommend-friends.css";
+@import "components/open-chat.css";
 
 /* Screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 body {
   color: #2e363e;
   font-family: "Hind Siliguri", sans-serif;
+  height: 1000vh;
 }
 
 .welcome-kokoa {
@@ -29,4 +37,27 @@ body {
   opacity: 0.4;
   font-size: 23px;
   margin-bottom: 150px;
+}
+
+.friends-display__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #2e363e;
+  text-decoration: none;
+  background-color: #fafafae2;
+  padding: 20px 0;
+}
+
+.friends-display__link i {
+  opacity: 0.3;
+}
+
+.ri-information-fill {
+  margin-right: 10px;
+}
+
+.ri-arrow-right-s-line {
+  margin-left: 5px;
 }

@@ -1,0 +1,38 @@
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 0;
+  background-color: #fafafa;
+  font-size: 50px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.new-chat {
+  position: relative;
+}
+
+.new-chat span {
+  position: absolute;
+  right: -10px;
+  top: 0px;
+  font-size: 15px;
+  background-color: tomato;
+  color: white;
+  border-radius: 50%;
+  padding: 5px 10px;
+}
+
+.new-setting {
+  position: relative;
+}
+
+.new-setting span {
+  position: absolute;
+  color: tomato;
+  bottom: 40px;
+  right: 0px;
+}

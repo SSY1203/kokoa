@@ -1,0 +1,19 @@
+.recommend-friends {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+.recommend-friends__title {
+  padding: 15px 0;
+  font-size: 20px;
+  opacity: 0.6;
+}
+
+.recommend-friends__text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+  font-size: 20px;
+  opacity: 0.4;
+}

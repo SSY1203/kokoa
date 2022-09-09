@@ -1,0 +1,19 @@
+.friends-screens {
+  padding: 5px 20px;
+}
+
+.friends-display__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #2e363e;
+  text-decoration: none;
+  background-color: #fafafae2;
+  padding: 20px 0;
+}
+
+.friends-display__link i {
+  opacity: 0.3;
+  margin: 0 10px;
+}

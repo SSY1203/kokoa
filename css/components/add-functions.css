@@ -1,0 +1,26 @@
+.find-screens {
+  padding: var(--padding);
+}
+
+.add-function {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.add-function__icon {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.add-function__icon i {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.add-function__icon span {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
